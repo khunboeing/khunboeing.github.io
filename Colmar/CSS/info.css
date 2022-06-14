@@ -1,0 +1,108 @@
+/* info start */
+
+.info {
+    display: flex;
+}
+
+.info-topic {
+    width: 60%;
+}
+
+.info-topic img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.info-topic h1,
+.info-topic p {
+    padding-left: 24px;
+    margin: 0;
+    color: #393939;
+}
+
+.info-topic h1 {
+    padding-bottom: 24px;
+}
+
+.info-topic p {
+    font-size: 15px;
+    color: #898989;
+}
+
+.info-topic p:last-child {
+    padding: 32px 0;
+    padding-left: 24px;
+    font-size: 13px;
+    color: #393939;
+}
+
+.info-detail {
+    width: 40%;
+    padding-top: 32px;
+}
+
+.detail-pic {
+    width: 35%;
+}
+
+.detail-pic img {
+    width: 100%;
+    padding: 16px 0px;
+}
+
+.detail-pic img:first-of-type {
+    padding-top: 0;
+}
+
+.info-detail-text {
+    display: flex;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.info-detail-text:first-of-type {
+    padding-top: 0;
+}
+
+.info-detail-text:last-of-type {
+    background-color: #C4C4C4;
+}
+
+.detail-text {
+    padding-top: 32px;
+
+}
+
+.detail-text h2,
+.detail-text p,
+.detail-text a {
+    margin: 0;
+    padding-left: 16px;
+}
+
+.detail-text h2 {
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.detail-text p {
+    font-size: 13px;
+    padding-bottom: 8px;
+    color: #898989;
+}
+
+.detail-text a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #3C7ADB;
+}
+
+.detail-text a:hover {
+    color: green;
+}
+
+/* info end */
+/* mobile edit */
+.info-mobile-pic {
+    display: none;
+}

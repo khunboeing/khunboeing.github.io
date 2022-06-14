@@ -1,0 +1,23 @@
+/* footer start */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    font-size: 13px;
+    color: #898989;
+    border-top: 1px solid #898989;
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #898989;
+}
+
+.footer a:hover {
+    color: red;
+}
+
+/* footer end */

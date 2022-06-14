@@ -1,0 +1,92 @@
+/* thesis start */
+.thesis {
+    margin: 0;
+}
+
+.thesis h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 32px 0;
+    font-size: 25px;
+}
+
+.thesis-container {
+    display: flex;
+}
+
+.thesis-container-video-text {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.thesis-container-video-text video {
+    width: 100%;
+}
+
+.thesis-container-video-text p {
+    color: #898989;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 8;
+    padding-bottom: 32px;
+}
+
+.thesis-container-video-text h2 {
+    color: #393939;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 24px;
+
+}
+
+.thesis-container-pic-text-detail {
+    width: 40%;
+    margin: 0;
+    padding: 16px;
+}
+
+.thesis-container-pic-text-detail {
+    width: 100%;
+    display: flex;
+}
+
+.text-detail {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.text-detail h2 {
+    color: #393939;
+    font-size: 18px;
+}
+
+.text-detail p {
+    color: #898989;
+    font-size: 13px;
+    margin: 0;
+}
+
+.pic-detail {
+    width: 35%;
+}
+
+.pic-detail img {
+    width: 100%;
+}
+
+.thesis-container-pic-text-detail:first-of-type {
+    background-color: #e4e1e1;
+}
+
+.text-detail a {
+    text-decoration: none;
+}
+
+/* thesis end */
+/* mobile edit */
+
+.thesis-mobile {
+    display: none;
+}

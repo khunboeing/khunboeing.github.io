@@ -1,0 +1,37 @@
+/* nav start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 64px;
+}
+
+.nav-topic-logo {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 32px;
+}
+
+.nav-text-link a {
+    color: #393939;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+.nav-text-link a:hover {
+    color: goldenrod;
+}
+
+.logo-color-grey {
+    color: #898989;
+}
+
+/* nav end */
+
+/* mobile */
+.nav-icon-mobile {
+    display: none;
+}

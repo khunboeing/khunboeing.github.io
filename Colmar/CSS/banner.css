@@ -1,0 +1,47 @@
+/* banner start */
+
+.banner {
+    display: flex;
+    background-color: #CFCFCF;
+}
+
+.banner-pic {
+    width: 60%;
+}
+
+.banner-pic img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.banner-text-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text-button h1 {
+    font-size: 30px;
+    color: #393939;
+    margin: 0;
+}
+
+.banner-text-button p {
+    font-size: 18px;
+}
+
+.nav-btn {
+    padding: 8px 0;
+    border: none;
+    background-color: #393939;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+    cursor: pointer;
+    color: goldenrod;
+}
+
+/* banner end */
